@@ -19,6 +19,7 @@
 		3F4FE0D42A03830E00DA0418 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FE0D32A03830E00DA0418 /* OnboardingCollectionViewCell.swift */; };
 		3F590E6D2A03AF3400CD61EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F590E6C2A03AF3400CD61EA /* LoginViewController.swift */; };
 		3F590E702A03C05400CD61EA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F590E6F2A03C05400CD61EA /* RegisterViewController.swift */; };
+		3F590E7A2A0522BC00CD61EA /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F590E792A0522BC00CD61EA /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3F4FE0D32A03830E00DA0418 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		3F590E6C2A03AF3400CD61EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F590E6F2A03C05400CD61EA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3F590E792A0522BC00CD61EA /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				3F4FE0CE2A037EA400DA0418 /* Extensions */,
-				3F4FE0CA2A037B6700DA0418 /* CustomViews */,
 				3F4FE0C92A037B5D00DA0418 /* Views */,
 				3F4FE0C82A037B4F00DA0418 /* Models */,
 				3F4FE0B12A036B8B00DA0418 /* AppDelegate.swift */,
@@ -87,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				3F4FE0D12A03805C00DA0418 /* OnboardingSlide.swift */,
+				3F590E792A0522BC00CD61EA /* Users.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -99,13 +101,6 @@
 				3F4FE0CB2A037B7900DA0418 /* Onboarding */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		3F4FE0CA2A037B6700DA0418 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		3F4FE0CB2A037B7900DA0418 /* Onboarding */ = {
@@ -214,6 +209,7 @@
 			files = (
 				3F590E702A03C05400CD61EA /* RegisterViewController.swift in Sources */,
 				3F4FE0BC2A036B8B00DA0418 /* Patisseria.xcdatamodeld in Sources */,
+				3F590E7A2A0522BC00CD61EA /* Users.swift in Sources */,
 				3F4FE0CD2A037BB200DA0418 /* OnboardingViewController.swift in Sources */,
 				3F4FE0B22A036B8B00DA0418 /* AppDelegate.swift in Sources */,
 				3F4FE0D02A037ED800DA0418 /* UIView+Extension.swift in Sources */,
