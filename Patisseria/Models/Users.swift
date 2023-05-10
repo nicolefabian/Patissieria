@@ -8,13 +8,27 @@
 import Foundation
 import UIKit
 
-// alert function
+//alert message with segue
 func showMessage(message : String, buttonCaption : String, controller : UIViewController)
 {
     let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
-    let action = UIAlertAction(title: buttonCaption, style: .default)
+    let action = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
+        // Perform the segue to the home controller
+       controller.performSegue(withIdentifier: "loginToHome", sender: nil)
+            //for validation
+            print("OK button tapped")
+       
+    })
     alert.addAction(action)
     controller.present(alert, animated: true)
+}
+
+//
+func validationMessage (message : String, buttonCaption : String, controller : UIViewController){
+    let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
+    let validateAction = UIAlertAction(title: "OK", style: .default)
+    alert.addAction(validateAction)
+    controller.present(alert, animated: true, completion: nil)
 }
 
 // user info to be saved
